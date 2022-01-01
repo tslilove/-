@@ -20,7 +20,7 @@ class YouDaoTranslationJs:
         self.url = 'https://fanyi.youdao.com/translate_o?smartresult=dict&smartresult=rule'
 
     def get_parameter(self,word):
-        with open('../js_database/ydfy.js','r',encoding='utf-8') as f:
+        with open('ydfy.js','r',encoding='utf-8') as f:
             ctx_js = execjs.compile(f.read())
         # word = "我爱你"
         data_dict = ctx_js.call("get_param",word)
