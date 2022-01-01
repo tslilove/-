@@ -1,3 +1,11 @@
+#!/usr/bin/python
+# -*- coding:utf-8 -*-
+# @Time    :2021/12/28 16:38
+# @Author   : 亮哥
+# @Mail    : yxl20160@126.com
+# @File      : youdaotranslation.py
+# Software  : PyCharm
+
 import time
 import requests
 import random
