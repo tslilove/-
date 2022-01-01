@@ -3,7 +3,7 @@
 # @Time    :2022/1/1 2:02
 # @Author   : 亮哥
 # @Mail    : yxl20160@126.com
-# @File      : 有道翻译js.py
+# @File      : youdaotranslationjs.py
 # Software  : PyCharm
 
 import requests,execjs
