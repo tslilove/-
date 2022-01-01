@@ -9,7 +9,7 @@
 import requests, execjs, time, json,re
 
 
-with open("../js_database/maomaozu.js", "r", encoding="utf-8") as f:
+with open("maomaozu.js", "r", encoding="utf-8") as f:
     ctx = execjs.compile(f.read())
 
 def encrypt(data,addr):
