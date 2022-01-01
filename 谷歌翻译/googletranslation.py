@@ -3,7 +3,7 @@
 # @Time    :2021/12/29 10:45
 # @Author   : 亮哥
 # @Mail    : yxl20160@126.com
-# @File      : 谷歌翻译爬虫.py
+# @File      : googletranslation.py
 # Software  : PyCharm
 
 
