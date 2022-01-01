@@ -3,7 +3,7 @@
 # @Time    :2021/12/29 12:42
 # @Author   : 亮哥
 # @Mail    : yxl20160@126.com
-# @File      : 百度翻译.py
+# @File      : baidutranslation.py
 # Software  : PyCharm
 
 import requests,execjs,re
