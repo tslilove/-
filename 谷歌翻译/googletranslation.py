@@ -8,7 +8,7 @@
 
 
 import requests,re
-from project_test_scrape.language_setting import setting
+from language_setting import setting
 
 class GoogleTranslation:
     def __init__(self):
