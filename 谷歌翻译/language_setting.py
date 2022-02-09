@@ -1,11 +1,3 @@
-#!/usr/bin/python
-# -*- coding:utf-8 -*-
-# @Time    :2021/12/31 22:18
-# @Author   : 亮哥
-# @Mail    : yxl20160@126.com
-# @File      : language_setting.py
-# Software  : PyCharm
-
 def setting(language):
     langList = {
         'zh': '中文',
