@@ -1,12 +1,3 @@
-#!/usr/bin/python
-# -*- coding:utf-8 -*-
-# @Time    :2021/12/29 10:45
-# @Author   : 亮哥
-# @Mail    : yxl20160@126.com
-# @File      : googletranslation.py
-# Software  : PyCharm
-
-
 import requests,re
 from language_setting import setting
 
