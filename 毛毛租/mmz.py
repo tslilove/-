@@ -1,12 +1,8 @@
-#!/usr/bin/python
-# -*- coding:utf-8 -*-
-# @Time    :2021/12/28 16:38
-# @Author   : 亮哥
-# @Mail    : yxl20160@126.com
-# @File      : mmz.py
-# Software  : PyCharm
-
-import requests, execjs, time, json,re
+import requests
+import execjs
+import time
+import json
+import re
 
 
 with open("maomaozu.js", "r", encoding="utf-8") as f:
