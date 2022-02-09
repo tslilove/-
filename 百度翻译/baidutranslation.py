@@ -1,12 +1,6 @@
-#!/usr/bin/python
-# -*- coding:utf-8 -*-
-# @Time    :2021/12/29 12:42
-# @Author   : 亮哥
-# @Mail    : yxl20160@126.com
-# @File      : baidutranslation.py
-# Software  : PyCharm
-
-import requests,execjs,re
+import requests
+import execjs
+import re
 
 class BaiduTranslation:
     def __init__(self,query_word):
