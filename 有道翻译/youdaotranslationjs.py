@@ -1,11 +1,3 @@
-#!/usr/bin/python
-# -*- coding:utf-8 -*-
-# @Time    :2022/1/1 2:02
-# @Author   : 亮哥
-# @Mail    : yxl20160@126.com
-# @File      : youdaotranslationjs.py
-# Software  : PyCharm
-
 import requests,execjs
 
 class YouDaoTranslationJs:
