@@ -4,7 +4,7 @@ from language_setting import setting
 class GoogleTranslation:
     def __init__(self):
         self.headers = {
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+        "user-agent": "你的ua"
         }
         self.url = "https://translate.google.cn/_/TranslateWebserverUi/data/batchexecute?rpcids=MkEWBc&f.sid=1891169464329671092&bl=boq_translate-webserver_20211220.12_p0&hl=zh-CN&soc-app=1&soc-platform=1&soc-device=1&_reqid=1172467&rt=c"
     def get_data(self,queryWord='我爱你', targetLanguage='en'):
